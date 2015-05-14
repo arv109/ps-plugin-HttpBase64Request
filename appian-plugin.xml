@@ -1,0 +1,9 @@
+<appian-plugin name="ps-plugin-HTTPBase64Request" key="ps-plugin-HTTPBase64Request">
+ 	<plugin-info>
+	    <description>ps-plugin-HTTPBase64Request</description>
+	    <vendor name="Appian Corporation" url="http://www.appian.com" />
+	    <version>1.0.0</version>
+	    <application-version min="7.8.0" />
+  	</plugin-info>
+	<smart-service name="Base64 Request to WS" key="makeHttpBase64Request" class="com.appiancorp.ps.sprint.MakeBase64RequestToWS" /> 
+</appian-plugin>
